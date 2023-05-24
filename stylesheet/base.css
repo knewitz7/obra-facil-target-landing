@@ -1,0 +1,123 @@
+body { margin: 0; padding: 0; }
+
+/*
+ * Estilos do cabeçalho.
+ */
+header {
+   background-color: white;
+   border-bottom: 3px solid #add;
+   display: flex;
+   padding: 25px 10;
+   
+}
+
+    header .logo,
+header .social { width: 50%; }
+#siga-conectado {
+    color: gray;
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+header .social a {
+    float: right;  
+    height: 32px;
+    margin-left: 15px;
+    width: 32px;
+}
+
+header .youtube_button {
+    background-image: url(../images/social_media_icons/yt.png);   
+}
+
+header .twitter_button {
+    background-image: url(../images/social_media_icons/twitter.png);
+}
+
+header .facebook_button {
+    background-image: url(../images/social_media_icons/facebook.png);
+}
+
+header .youtube_button:hover {
+    background-image: url(../images/social_media_icons/youtube-hover.png);   
+}
+
+header .twitter_button:hover {
+    background-image: url(../images/social_media_icons/twitter-hover.png);
+}
+
+header .facebook_button:hover {
+    background-image: url(../images/social_media_icons/facebook-hover.png);
+}
+
+/*
+ * area principal da pagina
+ */
+ main .content {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 10%;  
+}
+
+
+
+.video-area { 
+    margin-right: 10px;
+    max-width: 520px;
+}
+
+.video-area iframe { width: 100%; }
+
+/*
+ * formulário
+ */
+.form-area { 
+    background-color: white;
+    margin-left: 15px;
+    padding-bottom: 15px;
+    width: 400px;
+}
+
+input {
+    background-color: #eee;
+    border-radius: 3px;
+    border: solid 1px #CCC;
+    box-sizing: border-box; 
+    height: 48px;
+    margin: 10px 0;
+    max-width: 100%;
+    padding: 6px 15px;
+    width: 100%;
+}
+
+button {
+    background: #5b9a68;
+    border-radius: 3px;
+    border: solid 1px #fff;
+    color: white;
+    height: 48px;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+   
+}
+
+form, div.form-header, .notes { margin: 20px; } 
+#message { font-size: 15px; color: red; font-style: italic; }
+
+ /* 
+  * Rodapé 
+  */
+ footer {
+     background: #F6F6F6;
+     color: gray;
+     font-size: 14px;
+     line-height: 50px;
+     text-align: center;
+     padding: 10px;
+     width: 100%;
+}
